@@ -1,4 +1,12 @@
-#include <iostream>
+bool PlayAgain()
+{
+    char Answer;
+
+    cout << "\nDo you want to play again ? (y/n) : ";
+    cin >> Answer;
+
+    return (Answer == 'y' || Answer == 'Y');
+}#include <iostream>
 #include <string>
 #include <cstdlib>
 
